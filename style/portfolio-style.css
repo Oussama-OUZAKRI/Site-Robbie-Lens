@@ -1,0 +1,122 @@
+*{
+    margin :0;
+}
+
+body{
+    background-color: #1F2039;
+}
+
+.header,.footer{
+    background-color: white;
+    display:flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.header_nav,.footer_nav{
+    display: flex;
+    flex-direction: row;
+    gap: 15px;
+}
+
+.header_logo,.footer_logo{
+    margin: 15px;
+}
+
+.header_logo:hover,.footer_effect:hover {
+    opacity:0.5;
+}
+
+.portfolio_link,.instagram_link{
+    margin-right: 15px;
+}
+
+/*le style çi-dessous est pour la partie main*/
+
+main h1 {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 3.5em;
+    color:#A5B4FC;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    margin-left: 100px;
+}
+
+.main_section{
+    background-color: white;
+}
+
+.main_section h2 {
+    color: black;
+    font-size: 2em;
+    font-family: 'Montserrat', sans-serif;
+    text-align: center;
+    margin-bottom: 50px;
+    padding-top: 70px;
+}
+
+.main_section_grille_1{
+    display: grid;
+    grid-template-columns: 300px 300px 300px ;
+    grid-template-rows: 170px 170px 170px;
+    gap: 15px;
+    align-items: center;
+    justify-content: center;
+    place-items: center;
+}
+
+.main_section_grille_2{
+    display: grid;
+    grid-template-columns: 300px 300px 300px;
+    grid-template-rows: 450px 450px 450px;
+    gap: 15px;
+    align-items: center;
+    justify-content: center;
+    place-items: center;
+}
+
+.main_section_grille_1_element,.main_section_grille_2_element{
+    position: relative;
+    display: inline-block;
+}
+.main_section_grille_1_element:hover .overlay_effect,.main_section_grille_2_element:hover .overlay_effect{
+    display: flex;
+}
+.main_section_grille_1 img,.main_section_grille_2 img{
+    width: 100%;
+    height: 100%;
+    object-fit:cover;
+}
+.image_effect {
+    background-color: #fff;
+    box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.5);
+}
+
+.overlay_effect{
+    position: absolute;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    background-color: black;
+    opacity: 0.7;
+    height: 100%;
+    width: 100%;
+    display: none;
+    top: 0;
+    left: 0;
+    color: white;
+    font-size: 1.5em;
+    font-family: 'Montserrat', sans-serif;
+    margin: 0;
+}
+a{
+    font-size: 1em;
+    text-decoration: none;
+    font-family: 'Manrope', sans-serif;
+    color: #1F2039;
+}
+
+a:hover{
+    text-decoration: underline;
+}

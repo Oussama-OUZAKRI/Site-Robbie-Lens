@@ -1,0 +1,129 @@
+*{
+    margin :0;
+}
+
+body{
+    background-color: #1F2039;
+}
+
+.header,.footer{
+    background-color: white;
+    display:flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.header_nav,.footer_nav{
+    display: flex;
+    flex-direction: row;
+    gap: 15px;
+}
+
+.header_logo,.footer_logo{
+    margin: 15px;
+}
+
+.header_logo:hover,.footer_effect:hover {
+    opacity:0.5;
+}
+
+.portfolio_link,.instagram_link{
+    margin-right: 15px;
+}
+
+/*le style çi-dessous est pour la partie main*/
+
+.main_a-propos h1 {
+    font-size: 3.5em;
+    color:#A5B4FC;
+    font-family: 'Montserrat', sans-serif;
+    margin-top: 50px;
+    margin-left: 100px;
+}
+
+
+.main_a-propos_contenu {
+    width: 70%;
+    border-right: 1px solid #8e86b5;
+    border-bottom: 1px solid #8e86b5;
+    padding:50px;
+    margin: auto;
+}
+
+.main_a-propos_contenu p{
+    font-family: 'Manrope', sans-serif;
+    font-size: 1.5em;
+    color:#F9F8FF;
+    text-align: justify;
+    margin-bottom: 40px;
+}
+
+.main_a-propos_contenu h2 {
+    font-size: 2em;
+    margin-left: 250px;
+}
+
+li{
+    font-size: 1.5em;
+    margin-left: 300px;
+}
+
+.main_a-propos_contenu h2,li {
+    font-family: 'Manrope', sans-serif;
+    color:#F9F8FF;
+    margin-bottom: 10px;
+}
+
+.main_a-propos_buton{
+    background: linear-gradient(#8E86B5,#ACAEED);
+    font-size: 1em;
+    color:#F9F8FF;
+    text-align:center;
+    border-radius:50px;
+    padding: 10px;
+    white-space: pre-wrap;
+    position: relative;
+    bottom: 12px;
+    left: 140px;
+}
+
+.main_a-propos_buton:hover {
+    background:linear-gradient(#696484,#8788BA);
+    text-decoration: none;
+}
+
+table{
+    border-collapse: collapse;
+    margin: auto;
+    margin-bottom: 100px;
+    margin-top: 100px;
+}
+
+caption{
+    color:white;
+    font-size: 2em;
+    font-weight: bold;
+    font-family: 'Montserrat', sans-serif;
+    margin:30px;
+}
+
+td,th{
+    border:1px solid #A5B4FC;
+    color:white;
+    font-size: 1.5em;
+    font-family: 'Montserrat', sans-serif;
+    padding: 30px;
+    text-align: center;
+}
+
+a{
+    font-size: 1em;
+    text-decoration: none;
+    font-family: 'Manrope', sans-serif;
+    color: #1F2039;
+}
+
+a:hover{
+    text-decoration: underline;
+}
